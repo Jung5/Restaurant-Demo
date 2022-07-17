@@ -8,8 +8,9 @@ const AboutUs = () => (
     id="about"
   >
     <div className="app__aboutus-overlay flex__center">
-      <img src={images.G} alt="g letter" />
+      <img src={images.G} alt="G_overlay" />
     </div>
+
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
@@ -20,11 +21,12 @@ const AboutUs = () => (
           veritatis.
         </p>
         <a href="https://noahstudio.photography/about-me">
-          <button type="button" className="custom__button">
+          <button type="button" className="cuastom__button">
             Know More
           </button>
         </a>
       </div>
+
       <div className="app__aboutus-content_knife flex__center">
         <img src={images.knife} alt="about_knife" />
       </div>
