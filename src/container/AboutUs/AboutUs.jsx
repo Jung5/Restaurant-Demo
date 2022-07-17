@@ -21,7 +21,7 @@ const AboutUs = () => (
           veritatis.
         </p>
         <a href="https://noahstudio.photography/about-me">
-          <button type="button" className="cuastom__button">
+          <button type="button" className="custom__button">
             Know More
           </button>
         </a>
